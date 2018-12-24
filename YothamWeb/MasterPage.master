@@ -28,8 +28,9 @@
 
 	<div class="navigation">
 		<a href="Home.aspx">דף הבית</a>
-		<a href="#">קישור</a>
-		<a href="#">קישור שני</a>
+		<a href="Harshama.aspx">הרשמה</a>
+        <a href="Parkour.aspx">פארקור</a>
+		<a href="Teams.aspx">קבוצות פארקור</a>
 		<a href="#">קישור שלישי</a>
 		<a href="#">קישור רביעי</a>
 		<div class="clear"><span></span></div>
@@ -45,13 +46,13 @@
 
 		</div>
 
-		<div class="sidenav">
+		<div class="sidenav" style="direction:rtl;">
             <% =login %>
 			<h2>ארכיון</h2>
 			<ul>
-					<li><a href="Teams.aspx" >קבוצות</a></li>
-					<li><a href="Harshama.aspx">הרשמה</a></li>
-					<li><a href="Home.aspx">דף הבית</a></li>
+					<li><a href="#" >קבוצות</a></li>
+					<li><a href="#">הרשמה</a></li>
+					<li><a href="#">דף הבית</a></li>
 					<li><a href="#">יוני</a></li>
 					<li><a href="#">מאי</a></li>
 					<li><a href="#">מאי</a></li>
@@ -59,12 +60,12 @@
 
 			<h2>קישורים</h2>
 			<ul>
-				<li><a href="#">קישור</a></li>
-					<li><a href="#">קישור</a></li>
-					<li><a href="#">קישור</a></li>
-					<li><a href="#">קישור</a></li>
-					<li><a href="#">קישור</a></li>
-					<li><a href="#">קישור</a></li>
+					<li><a href="#" >קבוצות</a></li>
+					<li><a href="#">הרשמה</a></li>
+					<li><a href="#">דף הבית</a></li>
+					<li><a href="#">יוני</a></li>
+					<li><a href="#">מאי</a></li>
+					<li><a href="#">מאי</a></li>
 			</ul>
 	  </div>
 		<div class="clear"></div>

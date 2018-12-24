@@ -30,41 +30,55 @@
 
 </tr>
 
-
-
 <tr>
 
-<td style="color:red;background-color:aliceblue">סיסמא </td>
+<td>טלפון </td>
 
-<td> <input type="password" name="pass1" /> </td>
+<td> <input type="text" name="phone" /> </td>
 
 </tr>
 
+<tr>
+
+<td>Email </td>
+
+<td> <input type="text" name="email" /> </td>
+
+</tr>
+
+<tr>
+
+<td>סיסמא </td>
+
+<td> <input type="text" name="pass" /> </td>
+
+</tr>
+
+<tr>
+
+<td> אימות סיסמא </td>
+
+<td> <input type="text" name="pass2" /> </td>
+
+</tr>
+
+<tr>
+    <td> מין </td>
+    <td><input type="radio" name="gender" value="male" />זכר <input type="radio" name="gender" value="female" />נקבה</td>
+</tr>
+<tr>
+    <td>מדינה </td>
+    <td> <select name="country">
+        <option value="choose"> בחר </option>
+        <option value="usa"> ארצות הברית </option>
+        <option value="uk"> אנגליה </option>
+        <option value="isr"> ישראל </option>
+        <option value="fr"> צרפת </option>
+        <option value="other"> אחר </option>
+         </select>
+    </td>
+</tr>
  
-
-<tr>
-
-<td>אימות סיסמא</td>
-
-<td> <input type="password" name="pass2" /> </td>
-
-</tr>
-
-    <tr>
-        <td> מין </td>
-        <td><input type="radio" name:"male" />זכר </td>
-        <td><input type="radio" name:"female" />נקבה</td>
-    </tr>
-<tr>
-
-
-<td colspan="2"> <center><input type="submit" name="sub" value="שלח"/>
-
-<input type="reset" value="נקה"/> </center>
-
-</td>
-
-</tr>
 
  
 
