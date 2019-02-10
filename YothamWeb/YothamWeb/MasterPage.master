@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>עננים</title>
+<meta name="keywords" content="עננים" />
+<meta name="description" content="עיצוב עננים ע"י free-css.co.il" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- start header -->
+<div class="top">				
+	<div class="header">
+		<div id="logo">
+		</div>	
+	</div>	
+
+</div>
+
+<div class="container">	
+
+	<div class="navigation">
+		<a href="Home.aspx">דף הבית</a>
+		<a href="Harshama.aspx">הרשמה</a>
+        <a href="Parkour.aspx">פארקור</a>
+		<a href="Teams.aspx">קבוצות פארקור</a>
+		<a href="#">קישור שלישי</a>
+		<a href="#">קישור רביעי</a>
+		<div class="clear"><span></span></div>
+	</div>
+
+	<div class="main">		
+		
+		<div class="content">
+
+			 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+		</div>
+
+		<div class="sidenav" style="direction:rtl;">
+            <% =login %>
+            <% =punnel %>
+            <% =home %>
+			<h2>ארכיון</h2>
+			<ul>
+					<li><a href="#" >קבוצות</a></li>
+					<li><a href="#">הרשמה</a></li>
+					<li><a href="#">דף הבית</a></li>
+					<li><a href="#">יוני</a></li>
+					<li><a href="#">מאי</a></li>
+					<li><a href="#">מאי</a></li>
+				</ul>
+
+			<h2>קישורים</h2>
+			<ul>
+					<li><a href="#" >קבוצות</a></li>
+					<li><a href="#">הרשמה</a></li>
+					<li><a href="#">דף הבית</a></li>
+					<li><a href="#">יוני</a></li>
+					<li><a href="#">מאי</a></li>
+					<li><a href="#">מאי</a></li>
+			</ul>
+	  </div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+			
+	</div>
+
+</div>
+       
+    </div>
+    </form>
+</body>
+</html>
